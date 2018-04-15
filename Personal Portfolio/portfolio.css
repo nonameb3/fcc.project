@@ -1,25 +1,31 @@
-body{
-	
+html, body
+{
+    height: 100%;
 }
-
-html{
-
-}
-
 
 .pig{
-	height: 100%;
+/*	height: 100%;
 	width:100%;
 	background-size: cover;
 	background-position: center;
 	position: static;
-	max-height: 800px;
-
+	max-height: 800px;*/
+	height: 100%;
+	background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    z-index: -1;
 }
 
+.border{
+	border:4px pink solid;
+	height: 100%;
+	display: block;
+}
 
 .abc{
-	padding-left: 70%;
+	padding-left: 60%;
 
 }
 
