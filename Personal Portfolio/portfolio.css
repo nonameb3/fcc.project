@@ -5,18 +5,13 @@ html, body
 }
 
 .pig{
-/*	height: 100%;
-	width:100%;
-	background-size: cover;
-	background-position: center;
-	position: static;
-	max-height: 800px;*/
-	height: 100%;
+
+	height: auto;
+	min-height: 100%;
 	background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
     background-attachment: fixed;
-    z-index: -1;
 }
 
 .abc{
@@ -37,7 +32,7 @@ html, body
 }
 
 .bg4{
-	background-image: url(https://images.unsplash.com/photo-1484417894907-623942c8ee29?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=3f1d38bbdda690e28a81673c06325075&auto=format&fit=crop&w=1789&q=80);
+	background-image: url(https://images.unsplash.com/photo-1510936888149-cac5eef86ee2?ixlib=rb-0.3.5&s=b76ec5168011b4d8f60a2509f39fcaf6&auto=format&fit=crop&w=1950&q=80);
 }
 
 hr.style-two {
@@ -52,6 +47,9 @@ h5{
 	padding: 10px;
 	border-top: pink 3px solid;
 }
+#homepage{
+	color: white;
+}
 
 #content{
 	width: 500px;
@@ -61,10 +59,8 @@ h5{
 }
 
 #center{
-	color: white;
 	text-align: center;
 	padding-top: 300px;
-	height: 100%;
 }
 
 #shadow{
@@ -75,19 +71,37 @@ h5{
 }
 
 #end{
-	margin-top: 250px;
+	margin-top: 20px;
 	height: 40px;
-	color: white;
+	color: black;
 	text-align: center;
 }
 
 a img{
-	height: 270px !important;
-	width: 220px;
-
+	height: 250px !important;
+	width: 250px;
+	margin:20px;
+	
 
 }
 
 #projects h1{
 	color: red;
+}
+
+#contact{
+	color: black;
+}
+#contact img{
+	height: 150px !important;
+	width: 150px;
+	border:1px black solid;
+	border-radius: 50%;
+	opacity: 0.8;
+	margin:20px;
+}
+
+#soc li{
+	font-size: 240%;
+	margin:0px 20px;
 }
