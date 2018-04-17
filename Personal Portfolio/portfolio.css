@@ -45,7 +45,7 @@ h5{
 	min-width:100px; 
 	display: inline-block;
 	padding: 10px;
-	border-top: pink 3px solid;
+	border-top: silver 5px solid;
 }
 #homepage{
 	color: white;
@@ -101,7 +101,14 @@ a img{
 	margin:20px;
 }
 
-#soc li{
+#soc li a{
 	font-size: 240%;
 	margin:0px 20px;
+	color: #2eb8b8;
+}
+
+#soc li a:hover{
+	font-size: 240%;
+	margin:0px 20px;
+	color: #47d1d1;
 }
