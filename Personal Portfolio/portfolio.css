@@ -41,6 +41,27 @@ hr.style-two {
     background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0));
 }
 
+#homepage h1{
+	color: #e33258;
+	 font-size: 400%;
+	 padding-bottom:5px;
+	 font-family: 'Dancing Script', cursive;
+}
+
+#about h1{
+	text-align: center;
+	font-family: 'Berkshire Swash', cursive;
+}
+
+#projects h1{
+	margin-top: -100px; 
+	px;padding-bottom:50px;font-family: 'Berkshire Swash', cursive; 
+}
+
+#contact h1{
+	font-family: 'Berkshire Swash', cursive;
+}
+
 h5{
 	min-width:100px; 
 	display: inline-block;
