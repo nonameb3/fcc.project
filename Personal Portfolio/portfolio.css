@@ -5,7 +5,7 @@ html, body
 }
 
 .pig{
-
+	/*auto size background*/
 	height: auto;
 	min-height: 100%;
 	background-position: center;
